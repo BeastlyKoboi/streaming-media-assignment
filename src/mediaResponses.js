@@ -5,11 +5,9 @@ const path = require('path');
 const getParty = (request, response) => {
     loadFile(request, response, '../client/party.mp4', 'video/mp4');
 };
-
 const getBling = (request, response) => {
     loadFile(request, response, '../client/bling.mp3', 'audio/mpeg')
 };
-
 const getBird = (request, response) => {
     loadFile(request, response, '../client/bird.mp4', 'video/mp4')
 };
